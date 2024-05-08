@@ -1,0 +1,2465 @@
+/* fonts */
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Open Sans", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1690px;
+  margin: auto;
+}
+.col-1 {
+  max-width: 8.33%;
+  width: 100%;
+  flex: 8.33%;
+}
+.col-2 {
+  max-width: 16.66%;
+  width: 100%;
+  flex: 16.66%;
+}
+.col-3 {
+  max-width: 25%;
+  width: 100%;
+  flex: 25%;
+}
+.col-4 {
+  flex: 33.3%;
+  width: 100%;
+  max-width: 33.3%;
+}
+.col-5 {
+  max-width: 41.66%;
+  width: 100%;
+  flex: 41.66%;
+}
+.col-6 {
+  max-width: 50%;
+  width: 100%;
+  flex: 50%;
+}
+.col-7 {
+  max-width: 58.33%;
+  width: 100%;
+  flex: 58.33%;
+}
+.col-8 {
+  max-width: 66.66%;
+  width: 100%;
+  flex: 66.66%;
+}
+.col-9 {
+  max-width: 75%;
+  width: 100%;
+  flex: 75%;
+}
+.col-10 {
+  max-width: 83.33%;
+  width: 100%;
+  flex: 83.33%;
+}
+.col-11 {
+  max-width: 91.66%;
+  width: 100%;
+  flex: 91.66%;
+}
+.col-12 {
+  max-width: 100%;
+  width: 100%;
+  flex: 100%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* margin css */
+.mr-14 {
+  margin-right: 14px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-17 {
+  margin-top: 17px;
+}
+.ml-28p{
+  margin-left: 28%;
+}
+.mrl-10{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* padding css */
+.pr-40 {
+  padding-right: 40px;
+}
+.pl-40 {
+  padding-left: 40px;
+}
+.plr-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.pr-30{
+  padding-right: 30px;
+}
+.jstyfy-center{
+  justify-content: center;
+}
+
+/* navbar css */
+nav {
+	background-color: #fff1e6;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 60px;
+}
+.clovelogo {
+  width: 100%;
+  max-width: 140px;
+}
+.option {
+  display: flex;
+  gap: 20px;
+}
+.option a {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  color: #464646;
+  font-weight: 400;
+}
+.vector-img {
+  margin-left: 12px;
+}
+nav a {
+  text-decoration: none;
+}
+.appointment-btn {
+  color: white;
+  background-color: #f8943f;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding: 12px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.book-logo {
+  width: 100%;
+  max-width: 28px;
+}
+
+.help-btn {
+  color: black;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding: 12px 20px;
+  background-color: #fff1e6;
+  border: 1px solid #f8943f;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.call-logo {
+  width: 100%;
+  max-width: 17px;
+}
+
+/* section1 css */
+.section1 {
+  background-image: url(/assets/image/sec2-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10rem 0px;
+}
+.section1 h2 {
+  color: #303030;
+  font-size: 72px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.dental-hed {
+  color: #303030;
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.dental-hed2 {
+  color: #303030;
+  font-size: 34px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.buynow-btn {
+  color: white;
+  background-color: #f8943f;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding: 12px 20px;
+  border: 1px solid #f88a2a;
+  width: 100%;
+  max-width: 300px;
+  text-transform: uppercase;
+}
+
+/* location-section css */
+.location-section {
+  padding: 50px 0px;
+  margin-bottom: 40px;
+}
+.location-section .col-6 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.orange-txt {
+  color: #ea7d28;
+}
+.location-section .col-6 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.google-logo {
+  width: 100%;
+  max-width: 99px;
+  height: 99px;
+}
+.rating-img {
+  width: 100%;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+.rate-txt {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.rate-txt span {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ea7d28;
+  display: block;
+}
+.city-btn {
+  border: 1px solid #a0a0a0;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: fit-content;
+  padding: 16px 32px;
+}
+.location-section .city-btn a {
+  font-family: "Raleway", sans-serif;
+  font-size: 21.02px;
+  font-weight: 500;
+  line-height: 24.68px;
+  text-align: left;
+  color: #a0a0a0;
+  text-decoration: none;
+}
+.near-loct-btn {
+  font-family: "Raleway", sans-serif;
+  font-size: 21.02px;
+  font-weight: 500;
+  line-height: 24.68px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #f8943f;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  padding: 16px 32px;
+  background-color: #ea7d28;
+}
+.location-section .rate {
+  display: flex;
+  gap: 35px;
+}
+.drop-arrow {
+  width: 100%;
+  max-width: 22px;
+  height: 15px;
+}
+.location-section .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 1px solid #fadabe;
+  padding-left: 20px;
+}
+
+/* dental issues css */
+.dental-issues .container {
+  background-color: #fff9f4;
+  padding: 65px 50px 50px;
+  margin-bottom: 3em;
+  border-radius: 24px;
+}
+.issue-head {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #303030;
+  margin-bottom: 40px;
+}
+.dental-issues .col-2 {
+  padding: 15px;
+}
+.issue {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 36px 18px 36px 18px;
+  width: 100%;
+  max-width: 235px;
+  height: 235px;
+}
+.issue img {
+  width: 100%;
+  max-width: 52px;
+  margin-bottom: 20px;
+}
+
+.issue p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.2px;
+}
+
+/* features css */
+.features{
+  margin-bottom: 7em;
+}
+.contact-form {
+  background-color: #fff9f4;
+  border-radius: 24px;
+  padding: 111px 8em;
+}
+.inputs {
+  position: relative;
+}
+.inputs p {
+  position: absolute;
+  padding: 10px 31px;
+  background-color: #fff9f4;
+  left: 36px;
+  top: -19px;
+}
+.contact-form h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+.contact-form p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: left;
+  color: #474747;
+  margin-bottom: 3em;
+}
+.contact-form input {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.68px;
+  color: #5e5e5e;
+  text-decoration: none;
+  border: 1px solid #a0a0a0;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 400px;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  margin-bottom: 1em;
+}
+.contact-form label {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.4px;
+  color: #888888;
+  position: absolute;
+  top: -12px;
+  left: 37px;
+}
+.features .concern-btn {
+  margin-bottom: 3em;
+  background-color: #fff;
+}
+.features .concern-btn a {
+  font-family: "Raleway", sans-serif;
+  font-size: 21.02px;
+  font-weight: 400;
+  line-height: 24.68px;
+  text-align: left;
+  color: #a0a0a0;
+  text-decoration: none;
+}
+.features .col-5 {
+  padding-right: 30px;
+}
+
+.features .col-7 .col-12 .content {
+  background: url(../image/safety-proto.png);
+  padding: 60px 40px;
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.safety-head {
+  font-family: "Raleway", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.features .col-7 .col-12 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #303030;
+  margin-bottom: 5em;
+}
+.features .col-7 .col-12 p span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.learnmore {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 0px !important;
+}
+.box1 .top-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+}
+.box1 {
+  border-radius: 25px;
+  padding: 20px 0px;
+}
+.box1 .sub-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.skyblu-bg {
+  background-color: #f5f8ff;
+}
+.green-bg {
+  background-color: #e1f2ee;
+}
+.boxes {
+  padding-right: 15px;
+}
+.boxes-2 {
+  padding-left: 15px;
+}
+.box-logo {
+  width: 100%;
+  max-width: 115px;
+  display: block;
+  margin: auto;
+}
+.explore-more1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.search-img {
+  width: 100%;
+  max-width: 23px;
+}
+.explore-more1 h2 a {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #4d2c19;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.ryt-arow-img {
+  width: 100%;
+  max-width: 18px;
+}
+
+/* special section css */
+
+
+
+
+
+/* review section */
+
+.review-section {
+	margin-bottom: 1em;
+}
+.words-head {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #303030;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.shubam-pics {
+  width: 100%;
+  max-width: 348px;
+  margin-bottom: 8px;
+}
+.photos h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4d2c19;
+  text-transform: capitalize;
+  line-height: 18px;
+}
+.photos p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ea7d28;
+  text-transform: capitalize;
+  text-align: left;
+}
+.photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+/* specialist section css */
+.specialist-section {
+	background-color: #fff9f4;
+	padding: 50px 0px 50px 11%;
+}
+.specialist-head{
+font-family: "Raleway", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+color:  #303030;
+margin-bottom: 20px;
+}
+.dsply-blk{
+    display: block;
+}
+.align-center {
+  align-items: center;
+}
+.doctor-2-img{
+    width: 100%;
+    max-width: 101px;
+}
+.ornge-txt{
+    color: #ea7d28;
+}
+.specialist-optn h2{
+color:  #4D2C19;
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+
+
+}
+.specialist-optn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.specialist-optn p{
+color:  #4D2C19;
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 31.2px;
+
+
+}
+.fntsize-24{
+    font-size: 24px;
+}
+.doctors{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.doctors-img{
+width: 100%;
+max-width: 360px;
+margin-bottom: 8px;
+}
+.doctors h2{
+font-family: "Open Sans", sans-serif;
+font-size: 23px;
+font-weight: 700;
+line-height: 31.2px;
+color:  #303030;
+
+
+}
+.doctors p{
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 400;
+color:  #303030;
+}
+
+.specialist-section-list {
+	background-color: #FFEFE2;
+	padding: 10px 25px;
+  display: flex;
+  margin-bottom: 5em;
+}
+.special-point {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  flex: 16.33%;
+}
+.special-point p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+}
+.special-point img{
+  width: 100%;
+  max-width: 42px;
+  margin-right: 10px;
+}
+
+
+
+
+/* slider images css */
+
+.slider-1-img {
+  width: 100%;
+  max-width: 1156px;
+}
+.slider-2-img {
+  width: 100%;
+  max-width: 1156px;
+}
+.slider-3-img {
+  width: 100%;
+  max-width: 1156px;
+}
+/* blog hub section css */
+.blog-hub-section {
+  background-color: #fff9f4;
+  margin-bottom: 90px;
+  padding: 40px 0px;
+  margin-top: 100px;
+}
+.blog-hub-head {
+  color: #303030;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.blog-hub-section a {
+  text-align: center;
+  text-decoration: none;
+  color: #878787;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+.blog-hub-section a:hover {
+  color: #ea7d28;
+}
+.blog-option{
+  text-align: center;
+ 
+}
+.teeth-img {
+  width: 100%;
+  max-width: 144px;
+}
+.blog-hub-section h4 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.blog-hub-section p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #7d7d7d;
+  font-weight: 300;
+}
+.slider-arows {
+  display: flex;
+  justify-content: end;
+}
+.explore-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.search-img {
+  width: 100%;
+  max-width: 23px;
+}
+.explore-more h2 a {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #4d2c19;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.ryt-arow-img {
+  width: 100%;
+  max-width: 18px;
+}
+
+/* brands section css */
+.handshake-img {
+  width: 100%;
+  max-width: 1690px;
+  margin: auto;
+  display: block;
+}
+.brands-box {
+	border-radius: 15px;
+	background-color: #ffffff;
+	padding: 25px 40px;
+	width: 100%;
+	max-width: 1440px;
+	margin: auto;
+	position: relative;
+	bottom: 123px;
+	border-right: 0px solid #d7d6d6;
+	border-bottom: 0px solid #d7d6d6;
+	box-shadow: 1px 1px 4px 0px #d7d6d6;
+}
+.brands-box p {
+  font-family: "Open Sans", sans-serif;
+  color: #474747;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.brands-box h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #ea7d28;
+  font-size: 72px;
+  font-weight: 600;
+}
+.brands-box h3 {
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.brands-logo {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+	gap: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.bata-img {
+  width: 100%;
+  max-width: 218px;
+}
+.taj-img {
+  width: 100%;
+  max-width: 175px;
+}
+.vardhman-img {
+  width: 100%;
+  max-width: 40px;
+}
+.lakme-img {
+  width: 100%;
+  max-width: 355px;
+}
+.marsh-img {
+  width: 100%;
+  max-width: 128px;
+}
+.ryt-arrow-img {
+  width: 100%;
+  max-width: 18px;
+  margin-left: 15px;
+}
+.brands-box h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.brands-box h4 a {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #4d2c19;
+}
+.div-center{
+  display: block;
+  margin: auto;
+}
+.text-deco-none{
+  text-decoration: none;
+}
+
+/* beyond dentisry css */
+.beyond-dentisry {
+  padding: 0px 90px 70px 90px;
+}
+.beyond-dentisry-box {
+  background-color: #fff9f4;
+  border-radius: 15px;
+  padding: 50px 50px 70px 50px;
+}
+.beyond-dentisry h2 {
+  color: #303030;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+}
+.beyond-dentisry h3 {
+  color: #303030;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 45px;
+}
+.box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 35px 0px;
+}
+.icons-img {
+  width: 100%;
+  max-width: 116px;
+  margin: auto;
+  display: block;
+}
+.rewards-img {
+  width: 100%;
+  max-width: 80px;
+  margin: auto;
+  display: block;
+}
+.careers-img {
+  width: 100%;
+  max-width: 64px;
+  margin: auto;
+  display: block;
+}
+.box h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #303030;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.box h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #303030;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.reward-box-padding {
+  padding: 31px 0px 49px 0px;
+}
+/* faq css */
+.faq {
+  padding: 80px 0px;
+}
+.faq-head {
+  color: #303030;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+.faq-ques {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq-ques h2 {
+  color: #303030;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.plus-icon-img {
+  width: 100%;
+  max-width: 16px;
+  margin-left: 20px;
+}
+
+/* footer css */
+footer {
+  background-color: #3d2010;
+  padding: 65px 30px 35px 30px;
+}
+.optns-heads {
+  color: #ffefe2;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.optns-subhead a {
+  text-decoration: none;
+}
+.optns-subhead h4 {
+  color: #ffefe2;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+.social-medias {
+  margin-right: 40px;
+}
+.clovelogo-fotter {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+footer p {
+  color: #9f9f9f;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-us {
+	width: 100%;
+	max-width: 100px;
+	position: fixed;
+	bottom: 50px;
+	right: 24px;
+}
+
+
+.testimonial{
+  margin-bottom: 10em;
+}
+.wrapper {
+	max-width: 100%;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.wrapper i {
+	top: 50%;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	font-size: 1.25rem;
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+	background: #ffe5b3;
+	border-radius: 50%;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+	transform: translateY(-50%);
+	transition: transform 0.1s linear;
+  color:#ea7d28 ;
+}
+.wrapper i:active {
+	transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child {
+	right: 52%;
+	top: 110%;
+}
+.wrapper i:last-child {
+	right: 46%;
+	top:110%;
+}
+.wrapper .carousel {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: calc((100% / 5) - 12px);
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	gap: 16px;
+	border-radius: 8px;
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+	display: none;
+}
+.carousel.no-transition {
+	scroll-behavior: auto;
+}
+.carousel.dragging {
+	scroll-snap-type: none;
+	scroll-behavior: auto;
+}
+.carousel.dragging .card {
+	cursor: grab;
+	user-select: none;
+}
+
+.carousel .card {
+	scroll-snap-align: start;
+	list-style: none;
+	background: #fff;
+	cursor: pointer;
+	flex-direction: column;
+	border-radius: 8px;
+	text-align: center;
+	width: 100%;
+	max-width: 400px;
+	padding: 34px 20px 15px;
+}
+.carousel .card .img {
+	/*background: #8b53ff;*/
+	height: 108px;
+	width: 108px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom:25px;
+}
+.card .img img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 4px solid #6ab2dd;
+}
+.carousel .card h2 {
+	font-weight: 500;
+	font-size: 1.3rem;
+	margin: 9px 0 0px;
+	text-align: left;
+}
+.carousel .card span {
+	color: #6a6d78;
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+	.wrapper .carousel {
+		grid-auto-columns: calc((100% / 2) - 9px);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper .carousel {
+		grid-auto-columns: 100%;
+	}
+}
+
+.mbl-only{
+  display: none;
+}
+/* responsive css  */
+
+@media(max-width:1536px){
+  .container {
+    padding: 0px 30px;
+  }
+  .section1 h2 {
+    font-size: 60px;
+    line-height: 38px;
+  }
+  .location-section .col-6 h2 {
+    font-size: 38px;
+  }
+  .location-section .col-6 p {
+    font-size: 27px;
+  }
+  .issue {
+    height: 215px;
+  }
+  .issue p {
+    font-size: 21px;
+  }
+  .issue img {
+    max-width: 47px;
+    margin-bottom: 15px;
+  }
+  .contact-form {
+    padding: 78px 6em;
+  }
+  .contact-form h2 {
+    font-size: 37px;
+  }
+  .box-logo {
+    max-width: 68px;
+  }
+  .safety-head {
+    font-size: 50px;
+  }
+  .features .col-7 .col-12 p {
+    font-size: 25px;
+  }
+  .features .col-7 .col-12 p span {
+    font-size: 16px;
+  }
+  .box1 .top-text {
+    font-size: 22px;
+  }
+  .box1 .sub-text {
+    font-size: 18px;
+  }
+  .explore-more1 h2 a {
+    font-size: 17px;
+  }
+  .dental-issues .container {
+    padding: 65px 21px 50px;
+  }
+  .dental-issues{
+    padding: 0px 20px;
+  }
+  .explore-more h2 a {
+    font-size: 22px;
+  }
+  .shubam-pics {
+    max-width: 215px;
+  }
+  .specialist-section {
+    padding: 50px 0px 50px 6%;
+  }
+  .doctors p {
+    font-size: 16px;
+  }
+  .specialist-head {
+    font-size: 36px;
+  }
+  .doctors h2 {
+    font-size: 18px;
+  }
+  .teeth-img {
+    width: 100%;
+    max-width: 120px;
+  }
+  .blog-hub-section h4 {
+    font-size: 18px;
+  }
+  .blog-hub-head {
+    font-size: 36px;
+  }
+  .blog-hub-section p {
+    font-size: 16px;
+  }
+  .brands-box {
+    max-width: 1203px;
+  }
+  .brands-box h4 a {
+    font-size: 21px;
+  }
+  .faq-head {
+    font-size: 37px;
+  }
+  .faq-ques h2 {
+    font-size: 21px;
+  }
+  .optns-heads {
+    font-size: 26px;
+  }
+  .optns-subhead h4 {
+    font-size: 18px;
+  }
+  .clovelogo-fotter {
+    max-width: 450px;
+  }
+  footer p {
+    font-size: 19px;
+  }
+  .contact-us {
+    width: 100%;
+    max-width: 97px;
+    position: fixed;
+    bottom: 50px;
+    right: 18px;
+  }
+  .contact-us img {
+    max-width: 75px;
+  }
+  
+  .option a {
+    font-size: 18px;
+  }
+  .appointment-btn {
+    font-size: 18px;
+    padding: 11px 20px;
+  }
+  .book-logo {
+    width: 100%;
+    max-width: 21px;
+  }
+  .help-btn {
+    font-size: 18px;
+    padding: 9px 20px;
+  }
+  .call-logo {
+    max-width: 15px;
+  }
+  .near-loct-btn {
+    font-size: 19.02px;
+    padding: 12px 32px;
+  }
+  .location-section .city-btn a {
+    font-size: 19.02px;
+  }
+  .city-btn {
+    padding: 11px 32px;
+  }
+  .google-logo {
+    max-width: 73px;
+    height: 73px;
+  }
+  .rating-img {
+    max-width: 90px;
+  }
+  .rate-txt span {
+    font-size: 27px;
+  }
+  .rate-txt {
+    font-size: 17px;
+  }
+  nav {
+    padding: 18px 25px;
+  }
+}
+
+@media(max-width:1366px){
+  .issue-head {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .dental-issues .col-2 {
+    padding: 8px;
+  }
+  .issue p {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .explore-more h2 a {
+    font-size: 20px;
+  }
+  .contact-form h2 {
+    font-size: 31px;
+    line-height: 36px;
+  }
+  .safety-head {
+    font-size: 42px;
+  }
+  .features .col-7 .col-12 .content {
+    padding: 32px 40px;
+  }
+  .teeth-img {
+    width: 100%;
+    max-width: 101px;
+  }
+  .container {
+    padding: 0px 20px;
+  }
+}
+
+@media(max-width:1256px){
+  .near-loct-btn {
+    font-size: 17.02px;
+    padding: 12px 12px;
+    max-width: 254px;
+  }
+  .city-btn {
+    border-radius: 50px;
+    max-width: 254px;
+    padding: 12px 22px;
+  }
+  .issue {
+    padding: 16px 10px 20px 10px;
+    max-width: 235px;
+    height: 175px;
+  }
+  .features .concern-btn a {
+    font-size: 17.02px;
+  }
+  .contact-form input {
+    font-size: 18px;
+    max-width: 255px;
+    padding: 11px 23px;
+  }
+  .contact-form label {
+    font-size: 16px;
+    top: -14px;
+    left: 37px;
+  }
+  .contact-form {
+    padding: 87px 5em;
+  }
+  .drop-arrow {
+    max-width: 19px;
+    height: 12px;
+    margin-top: 7px;
+  }
+ .beyond-dentisry .plr-30 {
+    padding-left: 11px;
+    padding-right: 1px;
+  }
+  .bata-img {
+    max-width: 150px;
+  }
+  .lakme-img {
+    width: 100%;
+    max-width: 266px;
+  }
+  .brands-box {
+    max-width: 941px;
+  }
+  .brands-box h2 {
+    font-size: 59px;
+  }
+  .brands-box h3 {
+    font-size: 35px;
+  }
+  .brands-box p {
+    font-size: 20px;
+  }
+}
+  @media(max-width:1024px){
+
+ 
+  .dsply-none-l{
+    display: none;
+  }
+  .section1 {
+   
+    padding: 6rem 0px;
+  }
+  .section1 h2 {
+    font-size: 44px;
+    line-height: 18px;
+  }
+  .dental-hed {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  .dental-hed2 {
+    font-size: 27px;
+  }
+  .buynow-btn {
+    font-size: 20px;
+    padding: 8px 20px;
+    max-width: 246px;
+  }
+  .location-section .col-6 h2 {
+    font-size: 29px;
+  }
+  .location-section .col-6 p {
+    font-size: 22px;
+    line-height: 16px;
+  }
+  .google-logo {
+    max-width: 65px;
+    height: 65px;
+  }
+  .rating-img {
+    max-width: 80px;
+    margin-bottom: 0px;
+  }
+  .rate-txt span {
+    font-size: 22px;
+  }
+  .rate-txt {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .location-section .city-btn a {
+    font-size: 16.02px;
+    line-height: 24.68px;
+  }
+  .city-btn {
+    max-width: 207px;
+    padding: 8px 18px;
+  }
+  .near-loct-btn {
+    font-size: 14.02px;
+    padding: 10px 12px;
+    max-width: 212px;
+  }
+  .drop-arrow {
+    max-width: 14px;
+    height: 9px;
+    margin-top: 8px;
+  }
+  .issue-head {
+    font-size: 31px;
+    line-height: 37px;
+  }
+  .issue img {
+    max-width: 36px;
+    margin-bottom: 15px;
+  }
+  .issue p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .issue {
+    padding: 16px 10px 20px 10px;
+    max-width: 235px;
+    height: 166px;
+  }
+  .explore-more h2 a {
+    font-size: 18px;
+  }
+  .contact-form {
+    padding: 59px 4em;
+  }
+  .contact-form p {
+    font-size: 20px;
+  }
+  .contact-form h2 {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .contact-form input {
+    font-size: 16px;
+    max-width: 255px;
+    padding: 11px 23px;
+  }
+  .contact-form input {
+    font-size: 16px;
+    max-width: 200px;
+    padding: 8px 20px;
+  }
+  .features .concern-btn a {
+    font-size: 14.02px;
+  }
+  .safety-head {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .features .col-7 .col-12 p {
+    font-size: 21px;
+  }
+  .features .col-7 .col-12 p span {
+    font-size: 14px;
+  }
+  .features .col-7 .col-12 .content {
+    padding: 32px 23px;
+  }
+  .features .col-5 {
+    padding-right: 14px;
+  }
+  .box1 .top-text {
+    font-size: 18px;
+    line-height: 20.2px;
+  }
+  .box1 .sub-text {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  .carousel .card {
+    max-width: 400px;
+    padding: 20px 13px 20px;
+  }
+  .wrapper {
+    max-width: 87%;
+  }
+  .wrapper i:first-child {
+    right: 54%;
+    top: 112%;
+  }
+  .wrapper i:last-child {
+    right: 46%;
+    top: 112%;
+  }
+  .box-logo {
+    max-width: 55px;
+  }
+  .explore-more1 h2 a {
+    font-size: 16px;
+  }
+  .boxes-2 {
+    padding-left: 8px;
+  }
+  .boxes {
+    padding-right: 7px;
+  }
+  .features .col-7 .col-12 .content {
+ 
+    margin-bottom: 10px;
+  }
+  .contact-form label {
+    font-size: 14px;
+    top: -14px;
+    left: 20px;
+  }
+  .inputs p {
+    padding: 10px 23px;
+    left: 17px;
+    top: -19px;
+  }
+  .shubam-pics {
+    max-width: 133px;
+  }
+  .photos p {
+    font-size: 17px;
+  }
+  .specialist-head {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .doctor-2-img {
+    max-width: 68px;
+  }
+  .specialist-optn h2 {
+    font-size: 20px;
+    line-height: 23.2px;
+  }
+  .fntsize-24 {
+    font-size: 17px;
+  }
+  .buynow-btn {
+    font-size: 17px;
+    max-width: 246px;
+  }
+  .special-point img {
+    max-width: 28px;
+  }
+  .special-point p {
+    
+    font-size: 15px;
+  }
+  .teeth-img {
+    width: 100%;
+    max-width: 78px;
+  }
+  .blog-hub-section h4 {
+    font-size: 15px;
+  }
+  .blog-hub-section p {
+    font-size: 13px;
+  }
+  .blog-hub-section a {
+    font-size: 16px;
+  }
+  .blog-hub-head {
+    font-size: 28px;
+  }
+  .beyond-dentisry {
+    padding: 0px 19px 20px 19px;
+  }
+ 
+  .icons-img {
+    max-width: 85px;
+  }
+  .reward-box-padding {
+    padding: 20px 0px 49px 0px;
+  }
+  .faq {
+    padding: 80px 38px;
+  }
+  .faq-ques h2 {
+    font-size: 17px;
+  }
+  .faq-head {
+    font-size: 33px;
+    margin-bottom: 58px;
+  }
+  .optns-heads {
+    font-size: 19px;
+  }
+  .optns-subhead h4 {
+    font-size: 14px;
+  }
+  .social-medias {
+    margin-right: 19px;
+  }
+  .clovelogo-fotter {
+    max-width: 288px;
+  }
+  footer p {
+    font-size: 17px;
+  }
+  .option a {
+    font-size: 17px;
+  }
+}
+
+@media(max-width:768px){
+  .display-none-md{
+    display: none;
+  }
+  .section1 h2 {
+    font-size: 35px;
+  }
+  .features .col-5 {
+    padding-right: 0px;
+  }
+  .section1 {
+    padding: 4rem 0px;
+  }
+  .location-section .row .col-6{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .location-section .row .col-3 {
+    flex: 50%;
+    max-width: 50%;
+    align-items: center;
+  }
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 3) - 8px);
+  }
+  .testimonial {
+    margin-bottom: 7em;
+  }
+  .wrapper i:last-child {
+    right: 42%;
+    top: 112%;
+  }
+  .wrapper i:first-child {
+    right: 58%;
+    top: 112%;
+  }
+  .location-section .col-6 p {
+    margin-bottom: 42px;
+    text-align: center;
+  }
+  .location-section .col-6 h2 {
+    font-size: 29px;
+    text-align: center;
+  }
+  .location-section .rate {
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
+  .issue-head {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .dental-issues .col-2{
+    flex:33.3%;
+    max-width: 33.3%;
+  }
+  .issue img {
+    max-width: 43px;
+    margin-bottom: 15px;
+  }
+  .issue p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .explore-more h2 a {
+    font-size: 16px;
+  }
+  .search-img {
+    max-width: 19px;
+    margin-top: 7px;
+  }
+  .features .col-5{
+    flex:100%;
+    max-width: 100%;
+  }
+  .features .col-7{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .contact-form {
+    padding: 32px 2em;
+    margin-bottom: 30px;
+  }
+  .contact-form h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .contact-form p {
+    margin-bottom: 2em;
+  }
+  .features .concern-btn {
+    margin-bottom: 1em;
+    background-color: #fff;
+  }
+  .contact-form input {
+    margin-right: 21px;
+  }
+  .features {
+    margin-bottom: 4em;
+  }
+  .words-head {
+    margin-bottom: 35px;
+  }
+  .specialist-section .col-6{
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .specialist-section {
+    padding: 50px 0px 0px 6%;
+  }
+  .slider-sec .col-6{
+    flex: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .blog-hub-section {
+    background-color: #fff9f4;
+    margin-bottom: 90px;
+    padding: 40px 0px;
+    margin-top: 38px;
+  }
+  .blog-hub-section .pr-30{
+    flex: 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  .brands-box h2 {
+    font-size: 43px;
+  }
+  .brands-box {
+    max-width: 601px;
+  }
+  .brands-box h4 a {
+    font-size: 17px;
+  }
+  .brands-box h3 {
+    font-size: 26px;
+  }
+  .brands-box p {
+    font-size: 17px;
+  }
+  .beyond-dentisry-box {
+    background-color: #fff9f4;
+    border-radius: 15px;
+    padding: 50px 3px 70px 8px;
+  }
+  .box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 35px 0px 4px;
+  }
+  .box h2 {
+    font-size: 19px;
+}
+.box h4 {
+	font-size: 20px;
+}
+.rewards-img {
+	max-width: 72px;
+}
+.careers-img {
+	width: 100%;
+	max-width: 60px;
+}
+footer .col-3,.col-2{
+  flex: 50%;
+  max-width: 50%;
+  margin-bottom: 25px;
+} 
+.clovelogo-fotter {
+	max-width: 231px;
+}
+.clovelogo {
+	width: 100%;
+	max-width: 102px;
+}
+.dktp-only{
+  display: none;
+}
+.mbl-only{
+  display: block;
+}
+}
+
+@media(max-width:500px){
+  .section1 h2 {
+    font-size: 34px;
+    line-height: 39px;
+  }
+  .dental-hed {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .dental-hed2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .buynow-btn {
+    font-size: 15px;
+    max-width: 198px;
+  }
+  .section1 {
+    padding: 3rem 0px;
+  }
+  .location-section .col-6 h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .location-section .col-6 p {
+    font-size: 19px;
+    line-height: 8px;
+  }
+  .location-section .rate {
+    padding-right: 14px;
+  }
+  .google-logo {
+    max-width: 55px;
+    height: 55px;
+  }
+  .location-section .rate {
+    display: flex;
+    gap: 20px;
+  }
+  .city-btn {
+    max-width: 187px;
+    padding: 5px 16px;
+  }
+  .location-section .city-btn a {
+    font-size: 14.02px;
+  }
+  .near-loct-btn {
+    font-size: 13.02px;
+    padding: 5px 12px;
+    max-width: 192px;
+    text-align: left;
+  }
+  .issue-head {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .dental-issues .col-2 {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .issue img {
+    max-width: 37px;
+  }
+  .issue p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .contact-form h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .contact-form p {
+    font-size: 18px;
+  }
+  .contact-form input {
+    font-size: 14px;
+    max-width: 184px;
+    padding: 5px 20px;
+  }
+  .contact-form label {
+    font-size: 12px;
+    top: -14px;
+    left: 20px;
+  }
+  .features .col-7 .col-12 p {
+    font-size: 19px;
+    margin-bottom: 3em;
+  }
+  .safety-head {
+    font-size: 26px;
+  }
+  .features .col-7 .col-12 .content {
+    padding: 18px 20px;
+  }
+  .box1 .top-text {
+    font-size: 16px;
+    line-height: 20.2px;
+  }
+  .box-logo {
+    max-width: 47px;
+  }
+  .explore-more1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+  }
+  .explore-more1 h2 a {
+    font-size: 14px;
+  }
+  .ryt-arow-img {
+    max-width: 14px;
+    margin-top: 10px;
+  }
+  .words-head {
+    font-size: 32px;
+  }
+  .carousel .card {
+    padding: 20px 8px 20px;
+  }
+  .carousel .card h2 {
+    font-size: 1rem;
+  }
+  .photos p {
+    font-size: 14px;
+  }
+  .wrapper i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+  .fa-angle-left::before {
+    font-size: 16px;
+  }
+  .fa-angle-right::before {
+    font-size: 16px;
+  }
+  .specialist-head {
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .doctor-2-img {
+    max-width: 60px;
+  }
+  .specialist-optn h2 {
+    font-size: 18px;
+    line-height: 23.2px;
+  }
+  .specialist-optn p {
+    font-size: 18px;
+  }
+  .specialist-section {
+    padding: 50px 0px 0px 2%;
+  }
+  .doctors h2 {
+    font-size: 16px;
+  }
+  .doctors p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .specialist-section .col-6 {
+    margin-bottom: 10px;
+  }
+  .doctors {
+    margin-top: 30px;
+  }
+  .blog-hub-section .pr-30 {
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .teeth-img {
+    width: 100%;
+    max-width: 95px;
+    display: block;
+    margin: auto;
+  }
+  .blog-hub-section h4 {
+    font-size: 16px;
+  }
+  .blog-hub-head {
+    font-size: 29px;
+  }
+  .brands-logo {
+    flex-wrap: wrap;
+  }
+  .brands-logo img{
+    max-width: 100px;
+  }
+
+  .brands-logo img {
+    max-width: 64px;
+    height: 73px;
+  }
+  .brands-box {
+    max-width: 372px;
+  }
+  .brands-box h3 {
+    font-size: 18px;
+  }
+  .brands-box p {
+    font-size: 15px;
+  }
+  .brands-box h2 {
+    font-size: 33px;
+  }
+  .brands-box {
+    padding: 17px 18px;
+  }
+  .handshake-img {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+    height: 247px;
+  }
+  .beyond-dentisry .plr-30 {
+    flex: 50%;
+    max-width: 50%;
+    height: 177px;
+  }
+ 
+  .beyond-dentisry h3 {
+    font-size: 17px;
+  }
+  .box h2 {
+    font-size: 19px;
+  }
+  .faq .col-6{
+    flex: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .faq .pl-40 {
+    padding-left: 0;
+   
+  }
+  .faq .ml-28p{
+    margin: 0;
+  }
+  .faq .ml-28p {
+    margin: 0;
+    position: absolute;
+    right: 48px;
+  }
+  .faq {
+    padding: 24px 38px;
+  }
+  .faq-head {
+    font-size: 29px;
+    margin-bottom: 58px;
+  }
+  .faq-ques h2 {
+    font-size: 17px;
+  }
+  .contact-us img {
+    max-width: 62px;
+  }
+  .optns-heads {
+    font-size: 17px;
+  }
+  .optns-subhead h4 {
+    font-size: 12px;
+  }
+  .clovelogo-fotter {
+    max-width: 163px;
+  }
+  .box {
+    padding: 35px 0px 18px;
+  }
+}  
+@media(max-width:428px){
+  nav {
+    padding: 10px 19px;
+  }
+  .section1 h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 5px;
+  }
+  .dental-hed {
+    font-size: 18px;
+  }
+  .dental-hed2 {
+    font-size: 18px;
+  }
+  .buynow-btn {
+    font-size: 14px;
+    max-width: 146px;
+  }
+  .buynow-btn {
+    padding: 4px 16px;
+  }
+  .location-section {
+    padding: 25px 0px;
+  }
+  .location-section .col-6 h2 {
+    font-size: 24px;
+    
+  }
+  .location-section .col-6 p {
+    font-size: 17px;
+    line-height: 8px;
+  }
+  .google-logo {
+    max-width: 40px;
+    height: 40px;
+  }
+  .location-section .rate {
+    justify-content: center;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .location-section .row .col-3 {
+    flex: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  .location-section .btns {
+    border-left: 0px;
+    padding-left: 0px;
+  }
+  .city-btn {
+    margin: 0 auto;
+  }
+  .near-loct-btn {
+    margin: 0 auto;
+  }
+  .issue-head {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  footer .col-3, .col-2 {
+    margin-bottom: 6px;
+  }
+  .contact-form h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .inputs {
+    position: relative;
+    max-width: 185px;
+    margin: 0 auto;
+  }
+  .safety-head {
+    font-size: 24px;
+  }
+  .features .col-7 .col-12 p {
+    font-size: 17px;
+    margin-bottom: 2em;
+    line-height: 15px;
+  }
+  .features .col-7 .col-12 p span {
+    font-size: 11px;
+  }
+  .box1 .top-text {
+    font-size: 15px;
+  }
+  .box1 .sub-text {
+    font-size: 13px;
+  }
+  .box-logo {
+    max-width: 37px;
+  }
+  .explore-more1 h2 a {
+    font-size: 11px;
+  }
+  .ryt-arow-img {
+    max-width: 8px;
+    margin-top: 10px;
+  }
+  .blog-hub-head {
+    font-size: 26px;
+  }
+  .blog-hub-section a {
+    font-size: 13px;
+  }
+  .teeth-img {
+    max-width: 82px;
+  }
+  .blog-hub-section h4 {
+    font-size: 13px;
+  }
+  .blog-hub-section p {
+    font-size: 11px;
+  }
+  .blog-hub-section .mb-30{
+    margin-bottom: 0;
+  }
+  .brands-box {
+    max-width: 294px;
+  }
+  .brands-box p {
+    font-size: 13px;
+  }
+  .brands-box p {
+    font-size: 13px;
+  }
+  .ryt-arrow-img {
+    max-width: 13px;
+    margin-left: 15px;
+  }
+  .beyond-dentisry h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .box h2 {
+    font-size: 19px;
+  }
+  .icons-img {
+    max-width: 72px;
+  }
+  .box h2 {
+    font-size: 14px;
+  }
+  .rewards-img {
+    max-width: 53px;
+  }
+  .careers-img {
+    max-width: 40px;
+  }
+  .box h4 {
+    font-size: 17px;
+  }
+  .beyond-dentisry .plr-30 {
+    height: 157px;
+  }
+  .beyond-dentisry-box {
+    padding: 50px 3px 27px 8px;
+  }
+  .faq-head {
+    margin-bottom: 51px;
+    font-size: 26px;
+  }
+  .faq-ques h2 {
+    font-size: 15px;
+  }
+  .faq .pl-40 {
+    padding-right: 35px;
+  }
+  .box h4 {
+    font-size: 15px;
+  }
+}
+@media(max-width:390px){
+  .dental-issues .container {
+    padding: 41px 0px 50px;
+  }
+  
+  .issue img {
+    max-width: 29px;
+  }
+  .issue p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .issue {
+    max-width: 161px;
+    height: 134px;
+  }
+  .features .col-7 .col-6 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .boxes-2 {
+    padding-left: 0px;
+  }
+  .boxes {
+    padding-right: 0px;
+    margin-bottom: 15px;
+  }
+  .box1 {
+    border-radius: 25px;
+    padding: 20px 0px;
+    width: 100%;
+    max-width: 266px;
+    margin: 0 auto;
+  }
+  .features .col-7 .col-12 .content {
+    max-width: 270px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .section1 {
+   
+    background-position: left;
+    
+  }
+  .safety-head {
+    font-size: 19px;
+  }
+  .features .col-7 .col-12 p {
+    font-size: 15px;
+    margin-bottom: 2em;
+    line-height: 15px;
+  }
+  .learnmore {
+    font-size: 14px !important;
+  }
+  .carousel .card {
+    padding: 20px 1px 20px;
+  }
+  .specialist-head {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .doctors h2 {
+    font-size: 12px;
+  }
+  .doctors p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .buynow-btn {
+    display: block;
+    margin: 0 auto;
+  }
+  .blog-hub-head {
+    font-size: 23px;
+  }
+  .brands-logo img {
+    max-width: 51px;
+    height: 49px;
+  }
+  .beyond-dentisry .plr-30 {
+    padding-left: 4px;
+    padding-right: 10px;
+  }
+  footer {
+    background-color: #3d2010;
+    padding: 65px 1px 35px 15px;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  .plus-icon-img {
+    width: 100%;
+    max-width: 11px;
+    margin-left: 20px;
+  }
+}
+@media(max-width:320px){
+  .section1 h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .dental-hed {
+    font-size: 14px;
+  }
+  .dental-hed2 {
+    font-size: 16px;
+  }
+  .location-section .col-6 h2 {
+    font-size: 21px;
+  }
+  .location-section .col-6 p {
+    font-size: 15px;
+    line-height: 8px;
+  }
+  .issue-head {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .contact-form h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .contact-form p {
+    font-size: 15px;
+  }
+  .words-head {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .specialist-optn h2 {
+    font-size: 13px;
+    line-height: 23.2px;
+  }
+  .specialist-optn p {
+    font-size: 13px;
+  }
+  .fntsize-24 {
+    font-size: 13px;
+  }
+  .doctor-2-img {
+    max-width: 47px;
+  }
+  .blog-hub-head {
+    font-size: 18px;
+  }
+  .teeth-img {
+    max-width: 65px;
+  }
+  .brands-box {
+    max-width: 245px;
+  }
+  footer {
+    padding: 65px 1px 35px 0px;
+  }
+  .faq {
+    padding: 24px 10px;
+  }
+}
